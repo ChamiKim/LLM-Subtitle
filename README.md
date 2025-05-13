@@ -93,7 +93,6 @@ monu/
 	•	.vtt, .txt 자막 포맷 추가 지원
 	•	자주 사용하는 스타일 프리셋 제공
 	•	자막 번역 전/후 미리보기 및 비교 기능
-	•	음성 인식 + 자막 자동 생성 기능 연동 (선택 사항)
 
 ⸻
 
@@ -103,11 +102,3 @@ monu/
 	•	Streamlit, Python, dotenv
 
 ⸻
-
-📄 License
-
-MIT License
-
----
-
-필요하다면 이 README와 함께 사용할 `requirements.txt`도 바로 만들어드릴 수 있어요!
