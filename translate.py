@@ -55,7 +55,10 @@ if uploaded_file and selected_style:
                 response = client.chat.completions.create(
                     model="gpt-4-turbo",
                     messages=[
-                        {"role": "system", "content": "You are a subtitle translator."},
+                        {"role": "system", "content": "You are a professional subtitle translator for YouTube vlogs. "
+                            "Your job is to translate Korean vlog subtitles into clear, casual, and natural-sounding English. "
+                            "The translations should feel like something a friendly, cheerful vlogger would say. "
+                            "Keep it short, snappy, and emotionally expressive — like something you'd see in YouTube subtitles. "},
                         {"role": "user", "content": prompt}
                     ],
                     max_tokens=100
